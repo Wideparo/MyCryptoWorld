@@ -1,0 +1,8 @@
+[Service]
+WorkingDirectory= /root/mycryptoworld_bot/
+User=root
+ExecStart=/usr/bin/python main.py
+
+[Install]
+WantedBy=multi-user.target
+EOF
